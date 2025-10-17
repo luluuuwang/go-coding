@@ -15,7 +15,7 @@ func main() {
 
 	var wg sync.WaitGroup
 
-	chs := make([]chan struct{}, 12)
+	chs := make([]chan struct{}, 10)
 
 	// 创建十个信号通道
 	for i := 0; i < 10; i++ {
