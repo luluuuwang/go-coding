@@ -4,7 +4,7 @@ package main
 
 // 通过channel控制下一个goroutine何时可以打印
 
-// test-pull 
+// 10.17
 
 import (
 	"fmt"
